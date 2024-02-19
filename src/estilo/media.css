@@ -1,0 +1,30 @@
+@media screen and (min-width: 600px) {
+    *{
+        transition: .2s;
+    }
+
+    .headline__top h2{
+        padding: .3rem 5rem;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .separador{
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .headline__bottom__left h2, .headline__bottom__right h2{
+        font-size: 3rem;
+    }
+
+    .separador{
+        align-items: center; justify-content: center;
+    }
+
+    .noticia{
+        width: 700px;
+        margin: 0 auto;
+    }
+}
