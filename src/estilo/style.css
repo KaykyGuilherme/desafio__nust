@@ -288,6 +288,12 @@ body{
     border-radius: .1rem;
     border: 2px solid var(--verde__escuro);
     font-size: 1.2rem;
+    transition: .2s;
+}
+
+.desco__infos__img__btn button:hover{
+    box-shadow: inset 0 0 1rem var(--verde__escuro);
+    text-shadow: 0 0 .2rem var(--branco);
 }
 
 footer{
@@ -322,6 +328,10 @@ footer h4{
 .item__social a{
     color: var(--preto);
     font-size: 2rem;
+}
+
+.item__social a:hover{
+    color: #222;
 }
 
 .footer__logo{
